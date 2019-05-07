@@ -1,12 +1,89 @@
 <!DOCTYPE html>
 <html>
-<meta charset="utf-8">
 
 <head>
-
+    <meta charset="UTF-8">
+    <title>Winery</title>
+    <link href="./css/style.css" rel="stylesheet">
+    <link href="./css/normalize.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Crimson+Text:600" rel="stylesheet">
 </head>
 
 <body>
+    <section class="hero">
+            <div class="bg-div">
+                
+                    <img class="logo-img" src="./img/Okrowine-logo.svg" alt="okrowine">
+    
+                </div>
+            <section class="section--menu" id="Prospero">
+
+                    <nav class="menu menu--prospero">
+
+                        <ul class="menu__list">
+                            <li class="menu__item">
+                                <a class="menu__link">Home</a>
+                            </li>
+                            <li class="menu__item">
+                                <a class="menu__link">Who we are</a>
+                            </li>
+                            <li class="menu__item">
+                                <a class="menu__link">What we offer</a>
+                            </li>
+                            <li class="menu__item">
+                                <a class="menu__link">Our news</a>
+                            </li>
+                            <li class="menu__item">
+                                <a class="menu__link">Contact us</a>
+                            </li>
+                        </ul>
+                        
+                    </nav>
+                
+                </section>
+
+
+        <div class="hero-inner">
+            <h1>Wine is the only <br> artwork you can drink</h1>
+            <h2>We're creating something more than just wine since 1998</h2>
+        </div>
+    </section>
+
+    <main>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec nibh molestie, efficitur leo sed,
+            viverra nunc. Donec vehicula accumsan erat facilisis ullamcorper. Donec commodo quis dui nec placerat. Donec
+            mi orci, scelerisque eget nisl ac, hendrerit condimentum odio. Nam dictum odio eget quam tempus, a mattis
+            odio ornare. Nullam auctor libero ut libero suscipit, ut accumsan nunc condimentum. Donec ullamcorper
+            maximus sapien quis egestas.</p>
+
+        <p>Mauris viverra scelerisque lobortis. Orci varius natoque penatibus et magnis dis parturient montes, nascetur
+            ridiculus mus. Fusce ultrices enim sit amet elit tincidunt maximus. Suspendisse vitae pellentesque lectus.
+            Duis commodo leo suscipit augue mollis, non venenatis dolor ullamcorper. Duis tincidunt scelerisque lacus,
+            vel vehicula leo consectetur vel. Duis posuere nisl non odio consequat ultrices. Lorem ipsum dolor sit amet,
+            consectetur adipiscing elit.</p>
+
+        <p>Etiam a leo nec mi blandit euismod. Etiam fringilla odio vitae risus ornare, id bibendum velit consequat.
+            Fusce posuere risus sollicitudin condimentum ultrices. Fusce gravida, purus eget laoreet mattis, velit
+            sapien ultrices diam, id dapibus erat leo id quam. Maecenas quis risus convallis, placerat elit non, iaculis
+            tortor. Nullam porttitor magna risus, quis bibendum metus tincidunt in. Etiam vel ligula ac risus mattis
+            tincidunt vel sit amet ante. Morbi et viverra ligula. Ut ac dignissim nisi, condimentum imperdiet mauris.
+            Pellentesque ut ipsum vel diam tristique faucibus eu et lectus. Maecenas posuere neque non lacus bibendum,
+            sit amet pharetra justo semper. Sed mi risus, tempor sit amet ligula eget, varius pretium est. Sed a odio in
+            orci accumsan pretium suscipit ut quam.</p>
+    </main>
+    <script>
+            function showHide() {
+                var navList = document.getElementById("nav-lists");
+        
+                if (navList.className == '_Menus') {
+                    navList.classList.add("_Menus-show");
+                } else {
+                    navList.classList.remove("_Menus-show");
+                }
+        
+            }
+        </script>
 
 </body>
 
